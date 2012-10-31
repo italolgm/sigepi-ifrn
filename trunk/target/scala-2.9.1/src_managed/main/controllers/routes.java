@@ -1,6 +1,6 @@
-// @SOURCE:C:/Users/Alessandro/workspace/sigepi-ifrn/Sigepi/conf/routes
+// @SOURCE:C:/Users/Alessandro/workspace/sigepi-ifrn/conf/routes
 // @HASH:7146bf5ffec26c2f847f18152bb46ae68389afe6
-// @DATE:Wed Oct 31 10:30:03 BRST 2012
+// @DATE:Wed Oct 31 12:53:04 BRST 2012
 
 package controllers;
 
