@@ -1,6 +1,9 @@
-2012-10-31 10:29:57,856 - [INFO] - from play in main 
+2012-10-31 12:54:06,410 - [INFO] - from play in main 
 Listening for HTTP on port 9000...
 
-2012-10-31 10:30:23,996 - [INFO] - from play in play-akka.actor.default-dispatcher-2 
+2012-10-31 12:55:07,714 - [INFO] - from play in play-akka.actor.default-dispatcher-2 
 Application started (Dev)
+
+2012-10-31 12:55:12,688 - [ERROR] - from play in play-akka.actor.promises-dispatcher-2 
+Cannot invoke the action, eventually got an error: Thrown(akka.pattern.AskTimeoutException: Timed out)
 
