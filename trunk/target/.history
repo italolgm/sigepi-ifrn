@@ -1,3 +1,6 @@
 ~run
 eclipsify
 ~run
+compile
+update
+~compile
