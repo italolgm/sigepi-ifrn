@@ -5,11 +5,41 @@
 <html>
     <head>
         <title>@title</title>
+         <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/bootstrap.css")">
         <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
         <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
         <script src="@routes.Assets.at("javascripts/jquery-1.7.1.min.js")" type="text/javascript"></script>
     </head>
     <body>
-        @content
+    
+    
+    <div class="container">
+
+            <div class="content">
+                
+                <div class="page-header">
+                    <h1>@title</h1>
+                </div>
+
+                <div class="row">
+                    <div class="span14">
+                        @content
+                    </div>
+                </div>
+                
+            </div>
+<hr />
+            <footer>
+                
+        	
+        		<br/>
+	        	<p> SIGEPI - Sistema de Gestão de Pesquisa e Inovação - beta 1.0 <br /> 
+	        	Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte <br/></br>
+	        	
+	        	</p>
+	     
+            </footer>
+
+        </div>
     </body>
 </html>
