@@ -4,3 +4,4 @@ eclipsify
 compile
 update
 ~compile
+~run

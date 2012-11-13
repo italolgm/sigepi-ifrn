@@ -1,0 +1,46 @@
+@main("SIGEPI - Cadastrar Projetos"){
+
+<html>
+
+<body>
+
+<div class="topbar">
+	        <div class="fill">
+	              <div id="headerCSS">
+	                    <a class="brand" href="@routes.Professores.index()">Home</a>
+	                    <ul class="">
+	                        <li class="">
+	                            <a href="@routes.Professores.cadastrarProjeto()">Cadastrar Projeto</a>
+	                        </li>
+	                        @*
+	                        <li class="">
+	                            <a href="@routes.Bolsistas.blank()">Bolsistas</a>
+	                        </li>
+	                        *@
+	                    </ul>
+	                    <dl id="user" class="afastar">
+	                       <dt>user.name <span>(user.email)</span></dt>
+	                         <dd>
+	                              <a href="@routes.Sessions.efetuarlogout()">Sair</a>
+	                        </dd>
+	                   </dl>
+	                   
+	                </div>
+	         </div>
+	 </div>
+	<center>
+		 <div id="container" style="width:500px">
+		<!--  <div id="header" style="background-color:#FFA500;"> -->
+		 <!-- <h1 style="margin-bottom:0;">SIGEPI</h1></div> -->
+		 <div id="content" style="background-color:#EEEEEE;height:200px;width:500px;float:left;">
+Content goes here</div>
+
+<div id="footer" style="background-color:#99FF99;clear:both;text-align:center;">
+sigepi.edu.ifrn.br</div>
+		  
+	</center>
+	
+	 <a href="@routes.Professores.index()" class="btn">Voltar</a>
+</body> 
+</html> 
+}
