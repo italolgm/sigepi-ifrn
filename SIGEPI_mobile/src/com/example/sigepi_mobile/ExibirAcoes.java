@@ -15,6 +15,8 @@ public class ExibirAcoes extends Activity {
 		setContentView(R.layout.activity_exibir_acoes);
 		
 		Button btProjetosAvaliar = (Button) findViewById(R.id.btProjetosAvaliar);
+		Button btEditaisAbertos = (Button) findViewById(R.id.btEditaisAbertos);
+		
 		
 		btProjetosAvaliar.setOnClickListener(new View.OnClickListener() {
 			
@@ -25,6 +27,18 @@ public class ExibirAcoes extends Activity {
 				
 			}
 		});
+		
+		btEditaisAbertos.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent iniciarEditaisAbertos = new Intent(ExibirAcoes.this, EditaisAbertosActivity.class);
+				startActivity(iniciarEditaisAbertos);
+				
+			}
+		});
+		
+		
 	}
 
 	@Override

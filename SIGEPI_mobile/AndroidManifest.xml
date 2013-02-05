@@ -30,6 +30,10 @@
             android:name="com.example.sigepi_mobile.ProjetosParaAvaliarActivity"
             android:label="@string/title_activity_projetos_para_avaliar" >
         </activity>
+        <activity
+            android:name="com.example.sigepi_mobile.EditaisAbertosActivity"
+            android:label="@string/title_activity_editais_abertos" >
+        </activity>
     </application>
 
 </manifest>
