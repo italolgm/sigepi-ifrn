@@ -3,6 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Login" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="492" Width="768">
     <Grid>
-        
+        <Label Content="Usuário" Height="28" HorizontalAlignment="Left" Margin="187,122,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="Senha" Height="28" HorizontalAlignment="Left" Margin="187,165,0,0" Name="label2" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="253,124,0,0" Name="textBox1" VerticalAlignment="Top" Width="153" />
+        <PasswordBox Height="23" HorizontalAlignment="Left" Margin="253,165,0,0" Name="passwordBox1" VerticalAlignment="Top" Width="153" />
+        <Button Content="Entrar" Height="23" HorizontalAlignment="Left" Margin="253,217,0,0" Name="button1" VerticalAlignment="Top" Width="75" Click="autenticarLogin_Click" />
     </Grid>
 </Window>

@@ -22,5 +22,11 @@ namespace sigepiApp01
         {
             InitializeComponent();
         }
+
+       
+        private void autenticarLogin_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
