@@ -27,7 +27,7 @@ namespace sigepiApp01
         private void windowLogin(object sender, MouseButtonEventArgs e)
         {
             
-            Login login = new Login();
+            FormLogin login = new FormLogin();
             login.Show();
         }
     }

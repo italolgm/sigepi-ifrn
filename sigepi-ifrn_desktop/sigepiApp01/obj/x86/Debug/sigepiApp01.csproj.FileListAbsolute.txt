@@ -43,3 +43,9 @@ C:\Users\Alessandro\sigepi-ifrn\sigepi-ifrn_desktop\sigepiApp01\obj\x86\Debug\si
 C:\Users\Alessandro\sigepi-ifrn\sigepi-ifrn_desktop\sigepiApp01\obj\x86\Debug\sigepiApp01.Properties.Resources.resources
 C:\Users\Alessandro\sigepi-ifrn\sigepi-ifrn_desktop\sigepiApp01\obj\x86\Debug\ResGen.read.1.tlog
 C:\Users\Alessandro\sigepi-ifrn\sigepi-ifrn_desktop\sigepiApp01\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\Alessandro\sigepi-ifrn\sigepi-ifrn_desktop\sigepiApp01\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Alessandro\sigepi-ifrn\sigepi-ifrn_desktop\sigepiApp01\obj\x86\Debug\sigepiApp01_MarkupCompile.lref
+C:\Users\Alessandro\sigepi-ifrn\sigepi-ifrn_desktop\sigepiApp01\obj\x86\Debug\sigepiApp01.FormAdministrador.resources
+C:\Users\Alessandro\sigepi-ifrn\sigepi-ifrn_desktop\sigepiApp01\obj\x86\Debug\sigepiApp01.FormEditais.resources
+C:\Users\Alessandro\sigepi-ifrn\sigepi-ifrn_desktop\sigepiApp01\obj\x86\Debug\sigepiApp01.FormLogin.resources
+C:\Users\Alessandro\sigepi-ifrn\sigepi-ifrn_desktop\sigepiApp01\bin\Debug\sigepiApp01.exe.config
